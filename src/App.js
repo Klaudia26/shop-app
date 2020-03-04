@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Card from './components/Card/Card';
-
+import Board from './components/Board/Board';
 import './globalStyle.scss';
 
 class App extends Component {
   render() {
     return (
       <>
-        <Card />
+        <Board />
       </>
     );
   }
