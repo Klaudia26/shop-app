@@ -8,8 +8,7 @@ const CardList = (props) => {
       <div className="cardList">
         <ul className="cardList__list">
           {props.state.map((card) => {
-            console.log('odp', card);
-            return <Card card={card} />;
+            return <Card card={card} key={card.id} />;
           })}
         </ul>
       </div>
